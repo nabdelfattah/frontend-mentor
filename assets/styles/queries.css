@@ -1,0 +1,33 @@
+/******************************/
+/* FOR SMALLER TABLETS  768px */
+/******************************/
+@media (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+  .result-component {
+    max-width: 59rem;
+    box-shadow: 0px 3rem 5rem 3px hsl(221, 100%, 96%);
+  }
+  .result-part {
+    padding: 2rem 2.5rem;
+  }
+  .summary-part {
+    padding: 2rem 2.5rem;
+  }
+}
+/******************************/
+/* FOR PHONES 512px */
+/******************************/
+@media (max-width: 32em) {
+  main {
+    justify-content: flex-start;
+  }
+  .result-component {
+    flex-direction: column;
+    max-width: 47rem;
+  }
+  .result-part {
+    border-radius: 0 0 17px 17px;
+  }
+}
