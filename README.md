@@ -28,7 +28,7 @@ Users should be able to:
   ![result summary component screenshot](./screenshot.png)
 
 - for mobile devices
-  ![result summary component screenshot](./screenshot-mobile.png)
+  <br><img src="./screenshot-mobile.png" alt="result summary component screenshot" height="500"/>
 
 ### Links
 
