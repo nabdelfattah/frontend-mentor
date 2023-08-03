@@ -1,0 +1,134 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.attribution a {
+  /* color: hsl(228, 45%, 44%); */
+  color: hsl(217, 12%, 63%);
+}
+
+/* REUSABLE */
+.heading-tertiary {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+}
+.description {
+  color: hsl(217, 12%, 63%);
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+.icon {
+  display: inline-block;
+  padding: 1.4rem;
+  border-radius: 50%;
+  background-color: hsl(210, 19%, 22%);
+}
+/* HELPER CLASSES */
+.visible {
+  display: block !important;
+}
+.mb-sm {
+  margin-bottom: 1.5rem;
+}
+.mb-md {
+  margin-bottom: 2.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+body {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  height: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+  max-width: 38rem;
+  padding: 2.2rem;
+  border-radius: 21px;
+  background-color: hsl(213, 19%, 18%);
+}
+.rating-state {
+  display: none;
+  padding: 0.4rem;
+}
+.thankyou-state {
+  display: none;
+  text-align: center;
+  padding-bottom: 0.84rem;
+}
+
+.ratings {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.rating {
+  height: 4.8rem;
+  width: 4.8rem;
+  display: flex;
+  justify-content: center;
+  color: hsl(217, 12%, 63%);
+}
+.rating:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+}
+.clickedBtn {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 12%, 54%);
+}
+.btn {
+  display: inline-block;
+  width: 100%;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 100px;
+  font-size: inherit;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+}
+.btn:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thankyou-img {
+  margin: 2rem 0 2.6rem;
+}
+.thankyou-caption {
+  display: inline-block;
+  padding: 0.6rem 2rem;
+  border-radius: 100px;
+  background-color: hsl(210, 19%, 22%);
+  color: hsl(25, 97%, 53%);
+}

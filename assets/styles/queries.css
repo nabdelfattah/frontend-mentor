@@ -1,0 +1,8 @@
+@media (max-width: 24em) {
+  html {
+    font-size: 56.25%;
+  }
+  .container {
+    max-width: 35rem;
+  }
+}
